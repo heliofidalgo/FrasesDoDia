@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2167BBC126D009F3003D15BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219962A626A9CF1100823C65 /* ViewController.swift */; };
+		2167BBC426D00CFE003D15BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 219962A826A9CF1100823C65 /* Main.storyboard */; };
 		219962A326A9CF1100823C65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219962A226A9CF1100823C65 /* AppDelegate.swift */; };
 		219962A526A9CF1100823C65 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219962A426A9CF1100823C65 /* SceneDelegate.swift */; };
-		219962A726A9CF1100823C65 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219962A626A9CF1100823C65 /* ViewController.swift */; };
-		219962AA26A9CF1100823C65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 219962A826A9CF1100823C65 /* Main.storyboard */; };
 		219962AC26A9CF1300823C65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 219962AB26A9CF1300823C65 /* Assets.xcassets */; };
 		219962AF26A9CF1300823C65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 219962AD26A9CF1300823C65 /* LaunchScreen.storyboard */; };
+		219962BA26A9D3DB00823C65 /* aspas-esquerda.png in Resources */ = {isa = PBXBuildFile; fileRef = 219962B726A9D3DA00823C65 /* aspas-esquerda.png */; };
+		219962BB26A9D3DB00823C65 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 219962B826A9D3DB00823C65 /* logo.png */; };
+		219962BC26A9D3DB00823C65 /* aspas-direita.png in Resources */ = {isa = PBXBuildFile; fileRef = 219962B926A9D3DB00823C65 /* aspas-direita.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		219962AB26A9CF1300823C65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		219962AE26A9CF1300823C65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		219962B026A9CF1300823C65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		219962B726A9D3DA00823C65 /* aspas-esquerda.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "aspas-esquerda.png"; sourceTree = "<group>"; };
+		219962B826A9D3DB00823C65 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		219962B926A9D3DB00823C65 /* aspas-direita.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "aspas-direita.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +67,9 @@
 				219962A626A9CF1100823C65 /* ViewController.swift */,
 				219962A826A9CF1100823C65 /* Main.storyboard */,
 				219962AB26A9CF1300823C65 /* Assets.xcassets */,
+				219962B926A9D3DB00823C65 /* aspas-direita.png */,
+				219962B726A9D3DA00823C65 /* aspas-esquerda.png */,
+				219962B826A9D3DB00823C65 /* logo.png */,
 				219962AD26A9CF1300823C65 /* LaunchScreen.storyboard */,
 				219962B026A9CF1300823C65 /* Info.plist */,
 			);
@@ -124,9 +133,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				219962BA26A9D3DB00823C65 /* aspas-esquerda.png in Resources */,
+				219962BB26A9D3DB00823C65 /* logo.png in Resources */,
 				219962AF26A9CF1300823C65 /* LaunchScreen.storyboard in Resources */,
+				2167BBC426D00CFE003D15BD /* Main.storyboard in Resources */,
 				219962AC26A9CF1300823C65 /* Assets.xcassets in Resources */,
-				219962AA26A9CF1100823C65 /* Main.storyboard in Resources */,
+				219962BC26A9D3DB00823C65 /* aspas-direita.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				219962A726A9CF1100823C65 /* ViewController.swift in Sources */,
+				2167BBC126D009F3003D15BD /* ViewController.swift in Sources */,
 				219962A326A9CF1100823C65 /* AppDelegate.swift in Sources */,
 				219962A526A9CF1100823C65 /* SceneDelegate.swift in Sources */,
 			);
